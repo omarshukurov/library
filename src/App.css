@@ -1,0 +1,35 @@
+body{
+    background: rgb(211, 211, 211);
+}
+
+input{
+    border-radius: 10px;
+    outline: none;
+    width: 10rem;
+    height: 1.4rem;
+}
+
+button{
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    padding: 1rem 3rem; 
+    background: #61b1f7;
+    font-size: 1.1rem;
+    box-shadow: 5px 5px 3px 0px rgba(0,0,0,0.55);
+    transition: all .1s linear;
+}
+
+button:active{
+    box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.55);
+}
+
+label{
+    font-size: 1.2rem;
+    color: rgb(39, 97, 56);
+}
+
+.container{
+    width: 980px;
+    margin: 0px auto;
+}
